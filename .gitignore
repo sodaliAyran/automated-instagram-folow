@@ -1,2 +1,6 @@
 configurations.py
 instagram_list.txt
+__pycache__
+.ipynb_checkpoints/
+automated_follow.log
+instagram_test_list.txt
