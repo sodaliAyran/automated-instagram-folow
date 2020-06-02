@@ -44,7 +44,7 @@ def main(user_list):
     for split in splits:
         follow_users(user, split)
         # Wait for 1 day before checking follow back
-        wait_for_follow_back(15)
+        wait_for_follow_back(60*60*24)
         non_followers, return_followers = check_follow_backs(user, split, non_followers, return_followers)
         logger.info("End of split, starting next one...")
         
